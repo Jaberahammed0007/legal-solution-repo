@@ -334,10 +334,10 @@
       </div>
 
       <!-- Card section -->
-      <div>
-      <div class="mt-16 mb-28 grid grid-cols-2">
-        <div class="card bg-base-100 w-56 h-[270] shadow-xl mt-2 hover:bg-[#F3F3F3]">
-          <figure class="px-10 pt-10">
+      <div class="flex items-center gap-x-10">
+      <div class=" mt-16 mb-28 grid grid-cols-2 gap-y-[1px]">
+        <div class=" bg-base-100 w-56 h-[270] shadow-xl mt-2 hover:bg-[#F3F3F3]">
+          <figure class="px-10 pt-10 flex justify-center">
             <img src="images/location.png" alt="location" class="rounded-md" />
           </figure>
           <div class="card-body items-center text-center ">
@@ -345,8 +345,8 @@
             <p class="mt-2 text-base text-[#707070]">A108 Adam Street, New York, NY 535022</p>
           </div>
         </div>
-        <div class="card bg-base-100 w-56 h-[270] shadow-xl mt-2 hover:bg-[#F3F3F3]">
-          <figure class="px-10 pt-10">
+        <div class=" bg-base-100 w-56 h-[270] shadow-xl mt-2 hover:bg-[#F3F3F3]">
+          <figure class="px-10 pt-10 flex justify-center">
             <img src="images/call.png" alt="call" class="rounded-md" />
           </figure>
           <div class="card-body items-center text-center ">
@@ -356,8 +356,8 @@
           </div>
         </div>
 
-        <div class="card bg-base-100 w-56 h-[270] shadow-xl mt-2 hover:bg-[#F3F3F3]">
-          <figure class="px-10 pt-10">
+        <div class="bg-base-100 w-56 h-[270] shadow-xl hover:bg-[#F3F3F3]">
+          <figure class="px-10 pt-10 flex justify-center">
             <img src="images/email.png" alt="email" class="rounded-md" />
           </figure>
           <div class="card-body items-center text-center ">
@@ -367,8 +367,8 @@
           </div>
         </div>
 
-        <div class="card bg-base-100 w-56 h-[270] shadow-xl mt-2 hover:bg-[#F3F3F3]">
-          <figure class="px-10 pt-10">
+        <div class=" bg-base-100 w-56 h-[270] shadow-xl hover:bg-[#F3F3F3]">
+          <figure class="px-10 pt-10 flex justify-center">
             <img src="images/time.png" alt="time" class="rounded-md" />
           </figure>
           <div class="card-body items-center text-center ">
@@ -381,8 +381,14 @@
 
       <!-- Form Section -->
 
-       <div>
-        
+       <div class="w-1/2">
+        <div class=""><input type="text" placeholder="Your Name" class="input input-bordered  w-full " /></div>
+        <div class="mt-7"> <input type="text" placeholder="Your Email" class="input input-bordered w-full " /></div>
+          <div class="mt-7"> <input type="text" placeholder="Subject" class="input input-bordered w-full " /></div>
+            <div class="mt-7"> <textarea class="textarea textarea-bordered resize-none h-[152px] w-full" placeholder="Your Message"></textarea></div>
+        <div class="mt-7">
+          <a class="btn bg-[#B68C5A] text-white font-semibold text-lg w-full">Send Message</a>
+        </div>
        </div>
       </div>
   </main>
